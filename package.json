@@ -1,0 +1,23 @@
+{
+	"name": "mongoose-error",
+	"version": "1.0.0",
+	"description": "Mongoose useDb() error",
+	"main": "sync-data.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"sync": "ts-node ./src/sync-data.ts"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@typegoose/typegoose": "^9.7.0",
+		"mongoose": "^6.2.3",
+		"reflect-metadata": "^0.1.13",
+		"threads": "^1.7.0"
+	},
+	"devDependencies": {
+		"@types/node": "^17.0.21",
+		"ts-node": "^10.5.0",
+		"typescript": "^4.5.5"
+	}
+}
